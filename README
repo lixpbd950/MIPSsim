@@ -1,0 +1,19 @@
+Team Mumber1:
+Name: Qiang Zeng 
+UFID: 29884423
+Gatorlink Account: qzeng2490 
+email:qzeng2490@ufl.edu 
+
+Team Mumber2:
+Name: Xiaoping Li
+UFID: 83031065
+Gatorlink Account: lixpbd
+email: xiaoping@cise.ufl.edu
+
+On my honor, I have neither given nor received unauthorized aid on this assignment.
+
+Assumption: In the requirement of part 1 of our project, it says: " The data section is followed the BREAK instruction and begins at address "716"." But in the sample output file fibonacci_out, the data secton begins at 668, which is right after the instruction section. It's abviously a conflict between requirement and sample. So in order to obtain the same result as fibonacci_out, I did an assumption that data section address begins right after instruction section, which will have the same result.
+
+Instructions: 1. Extract the folder and change directory into this folder from terminal;
+	      2. Input "make" to compile the .java files by using makefile;
+	      3. Input "java MIPSsim inputfilename outputfilename -Tm:n" to run the program, where "inputfilename" and "outputfilename" are path names of the input file and output file respectively, "-Tm:n" is optional argument to specify the start (m) and end (n) cycles of simulation output trace. "-T0:0" indicates that no tracing is to be performed and only the final state will be printed. Eliminating this "-Tm:n" argument specifies that every cycle (complete execution) is to be traced.
